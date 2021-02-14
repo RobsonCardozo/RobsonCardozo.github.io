@@ -9,6 +9,8 @@ body {
 #top {
     margin-left: auto;
     margin-right: auto;
+    position: relative;
+    padding-right: 75px;
 }
 
 .topics {
