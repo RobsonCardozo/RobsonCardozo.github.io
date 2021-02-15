@@ -1,51 +1,110 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: "Philosopher, Arial, Helvetica, sans-serif";
 }
 
 body {
-    background-color: rgb(7, 7, 7);
+  background-color: black;
+  border: 2px ridge silver;
+  border-radius: 1%;
 }
 
-#top {
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    padding-right: 75px;
+p, h1, h2, h3, h4, h5, h6, li {
+  color: white;
 }
 
-.topics {
-    color:white;
-    text-align: center;
+#div-header {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 10px 0px 10px;
 }
 
-#header {
-    width: 320px;
-    height: 320px;
-    margin-left: relative;
-    margin-right: auto;
-    margin-top: 50px;
-    margin-bottom: 25px;
+#text-header {
+  text-align: center;
+  border: 1px inset silver;
+  background-color: #3a3a3a;
+  padding: 0px 1px 0px 1px;
+}
+
+#div-picture {
+  position: relative;
+  width: 320px;
+  height: 320px;
+  bottom: 10px;
+  left: 10px;
 }
 
 #profile-pic {
-    width: 250px;
-    height: 250px;
-    padding-left: 20px;
-}
-
-#text-summary {
-    padding-left: 20px;
-    padding-right: 20px;
-    text-align: justify;
-    color: white;
+  position: relative;
+  border: 2px inset silver;
+  width: 250px;
+  height: 250px;
+  margin: auto;
 }
 
 #div-description {
-    position: relative;
-    bottom: 455px;
-    left: 280px;
+  position: relative;
+  bottom: 346px;
+  padding-left: 280px;
+  padding-right: 10px;
 }
 
-li {
-    color: white;
+#text-description {
+  position: relative;
+  text-align: left;
+  background-color: #3a3a3a;
+  border: 2px inset silver;
+  padding: 53px 30px 53px 10px;
 }
+
+#div-summary {
+  position: relative;
+  bottom: 350px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#text-summary {
+  text-align: justify;
+  background-color: #3a3a3a;
+  border: 2px inset silver;
+  padding: 30px;
+  margin: auto;
+}
+
+#div-links {
+  position: relative;
+  bottom: 348px;
+  padding-left: 50px;
+}
+
+a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #8f39ff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0db2ff;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.back-text {
+  position: relative;
+  text-align: center;
+  bottom: 10px;
+}
+
