@@ -31,7 +31,7 @@ main {
   background-color: snow;
   text-align: center;
   width: 100%;
-  padding: 375px 0;
+  padding: 360px 0;
 }
 
 .menu {
@@ -49,6 +49,7 @@ main {
   display: block;
   text-decoration: none;
   background-color: snow;
+  font-family: 'Arial', cursive;
 }
 
 .menu a:hover {
