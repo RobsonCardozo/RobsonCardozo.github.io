@@ -35,8 +35,8 @@ main {
   text-align: center;
   padding: 5px;
   width: 100%;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .menu {
@@ -90,7 +90,7 @@ main {
 #mainArticle, #secondArticle {
   border: 1px solid;
   padding: 20px 10px 20px 10px;
-  margin: 10px;
+  margin-left: 10px;
   background-color: snow;
   color: black;
   text-align: left;

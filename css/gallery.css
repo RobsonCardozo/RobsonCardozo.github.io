@@ -3,6 +3,8 @@
 /* Board proprieties: https://www.devmedia.com.br/propriedades-das-bordas-no-html/23949 */
 
 body {
+  margin: 0;
+  padding: 0;
   background-image: url(/images/background.png);
   background-size: cover;
 }
@@ -30,10 +32,24 @@ main {
   border: 1px groove snow;
   background-image: url(/images/sky.jpg);
   background-size: cover;
+  vertical-align: center;
   text-align: center;
-  width: 100%;
-  padding: 360px 0;
-  opacity: 0.3;
+  width: 100%;  
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#mainSection {
+  display: flex;
+  justify-content: center;
+}
+
+#saladfingers, #soldier, #lion {
+  height: 300px;
+  width: auto;
+  padding: 10px;
+  border: 1px groove;
+  background-color: rgb(56, 44, 40);
 }
 
 .menu {
