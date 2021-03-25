@@ -3,6 +3,8 @@
 /* Board proprieties: https://www.devmedia.com.br/propriedades-das-bordas-no-html/23949 */
 
 body {
+  margin: 0;
+  padding: 0;
   background-image: url(/images/background.png);
   background-size: cover;
 }
@@ -31,9 +33,10 @@ main {
   background-image: url(/images/sky.jpg);
   background-size: cover;
   text-align: center;
+  padding: 5px;
   width: 100%;
-  padding: 360px 0;
-  opacity: 0.3;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 .menu {
@@ -67,15 +70,37 @@ main {
   display:block;
 }
 
-#footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 40px;
-  text-align: center;
+#mainSection {
+  display: flex;
+  justify-content: center;
 }
 
-#footerText {
+#photoArt {
+  line-height: 320px;
+  margin: 10px;
+}
+
+#photo {
   position: relative;
-  bottom: 10px;
+  height: 260px;
+  width: auto;
+  vertical-align: middle;
+}
+
+#mainArticle, #secondArticle {
+  border: 1px solid;
+  padding: 20px 10px 20px 10px;
+  margin: 10px;
+  background-color: snow;
+  color: black;
+  text-align: left;
+}
+
+#footer {
+  position: relative;
+  top: 10px;
+  bottom: 5px;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
 }
