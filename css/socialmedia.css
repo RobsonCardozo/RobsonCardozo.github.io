@@ -1,0 +1,77 @@
+/* Thanks to Ricard Arrigoni for the CSS Dynamic Menu: https://www.devmedia.com.br/menu-em-css-menu-dropdown-horizontal-com-html5-e-css3/37205 */
+/* Color names: https://www.w3schools.com/colors/colors_names.asp */
+/* Board proprieties: https://www.devmedia.com.br/propriedades-das-bordas-no-html/23949 */
+
+body {
+  background-image: url(/images/background.png);
+  background-size: cover;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: 'Train One', cursive;
+  text-align: center;
+  position: relative;
+  bottom: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding-right: 40px;
+  padding-bottom: 10px;
+}
+
+main {
+  border: 1px groove snow;
+  background-image: url(/images/sky.jpg);
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  padding: 360px 0;
+  opacity: 0.3;
+}
+
+.menu {
+  list-style: none;
+}
+
+.menu li {
+  float: left;
+  border: 1px solid darkgray;
+}
+
+.menu a {
+  color:black;
+  padding: 8px 12px;
+  display: block;
+  text-decoration: none;
+  background-color: snow;
+  font-family: 'Arial', cursive;
+}
+
+.menu a:hover {
+  background:rgb(48, 48, 48);
+  color: snow;
+  -moz-box-shadow: 0 3px 10px 0 rgb(204, 204, 204);
+  -webkit-box-shadow:0 3px 10px 0 rgb(204, 204, 204);
+  text-shadow:0px 0px 5px white;
+  box-shadow: 0 3px 10px 0 rgb(204, 204, 204);
+}
+
+.menu li:hover ul, .menu li.over ul{
+  display:block;
+}
+
+#footer {
+  position: relative;
+  top: 10px;
+  bottom: 5px;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
